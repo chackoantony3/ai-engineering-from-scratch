@@ -20,7 +20,7 @@ on:
       env:
         description: 'environment to deploy to'
         default: 'dev'
-        required: 'true'
+        required: true
         type: string
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
